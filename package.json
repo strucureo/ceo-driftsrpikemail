@@ -1,0 +1,14 @@
+{
+  "name": "Alex-email-api",
+  "version": "3.0.0",
+  "description": "Serverless email API with SMTP support for Vercel",
+  "type": "module",
+  "scripts": {
+    "build": "echo 'Build complete - Vercel serverless functions'"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.4",
+    "node-cache": "^5.1.2",
+    "nodemailer": "^7.0.12"
+  }
+}

@@ -1,0 +1,74 @@
+# =========================
+# Node.js
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Environment variables (exclude .local files but allow package-lock for deployment)
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Build outputs
+# =========================
+dist/
+build/
+.next/
+out/
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+
+# =========================
+# Coverage
+# =========================
+coverage/
+
+# =========================
+# Temporary files
+# =========================
+tmp/
+.cache/
+
+# =========================
+# Prisma / ORM (optional)
+# =========================
+prisma/migrations/
+
+# =========================
+# Secrets (VERY IMPORTANT)
+# =========================
+*.pem
+*.key
+*.crt
+*.json
+!package.json
+!package-lock.json
+!vercel.json
+!firestore.indexes.json
+service-account-key.json
+credentials.json
+driftspike-*.json
+.vercel
